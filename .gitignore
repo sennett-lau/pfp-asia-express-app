@@ -1,0 +1,18 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+# Idea IDE
+.idea
+
+# Visual Studio Code
+.vscode
+
+# just for testing
+x.json
+
+dist
+
+.tsbuildinfo
+
+src/**/*.js
