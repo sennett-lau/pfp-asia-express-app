@@ -1,1 +1,1 @@
-export const EXPRESS_PORT = process.env.EXPRESS_PORT || 3000
+export const EXPRESS_PORT = process.env.EXPRESS_PORT || 1111
