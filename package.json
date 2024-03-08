@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/App.ts",
+    "dev": "ts-node src/App.ts",
+    "build": "tsc",
+    "start": "cross-env NODE_ENV=production node dist/App.js",
     "lint": "eslint --ext .ts src --fix",
     "fmt": "prettier --write \"src/**/*.{ts,tsx}\""
   },
